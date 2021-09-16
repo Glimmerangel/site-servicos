@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.menu ul li a{ /* Selecionando elementos através de seu parentesco */
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px; /* espaçamento entre os links */
+    display: inline-block;
+    transition: background .3s; /*Responsável por criar a transição suave*/
+}
+
+.menu ul li a:hover{
+    background-color: teal; /*muda a cor de fundo quando passa o mouse por cima */
+}
+
+.menu{
+    width: 100%;
+    background-color: rgba(38, 37, 41, 0.8);
+    position: fixed; /* Fixando o menu no topo da tela */
+}
+
+li{
+    display: inline; /* Display responsável por alinhar os itens lado a lado*/
+}
+
+#conteudo{ /*Elemento pai */
+    width: 100%; /*largura*/
+    height: 120vh; /*altura*/
+    background-color: teal;
+    display: flex; /* Tornando o layout flexível*/
+}
+
+.caixa{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px; /* propriedade responsável por arredondar a borda */
+    text-align: center;
+}
+
+.img-um{
+    background-image: url("../img/office.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.img-dois{
+    background-image: url("../img/pc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-tres{
+    background-image: url("../img/tel.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.titulo-caixa{ /* Classe da tag <h2> */
+    color: white;
+    font-size: 35px;
+    margin-top: 180px;
+    background-color: rgba(00, 00, 00, 0.8);
+}
+
+.link-caixa{ /* Classe da tag <a> */
+    color: white;
+    font-size: 20px;
+    background-color: rgba(00, 00, 00, 0.8);
+    display: block;
+    text-decoration: none;
+}
+/* Rodapé */
+#rodape{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(38, 37, 41);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tit-rodape{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.text-rodape{
+    font-size: 20px;
+    color: white;
+}

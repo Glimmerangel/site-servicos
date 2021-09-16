@@ -1,0 +1,55 @@
+/* Reset CSS */
+*{
+    padding: 0px;
+    margin: 0;
+}
+body {
+
+    background-image: url("../img/computer-2930704_1280.jpg") ;      
+    background-size: cover;
+    text-align: center;
+}
+/* Configuração do formulário */
+#formulario{
+    height: 280px;
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 100px;
+    backdrop-filter: blur(4px);
+       }
+
+label {
+color: white;
+font-size: 20px;
+}
+
+input {
+    width: 70%;
+}
+
+button {
+
+    width: 100px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+    font-size:  20px;
+    border: none;
+    margin-top: 80px;
+    
+}
+
+button:hover {
+
+    background-color: rgb(58, 58, 58);
+}
+
+.voltar{
+text-decoration: none;
+font-size: 20px;
+color: white;
+background-color: black;
+}
